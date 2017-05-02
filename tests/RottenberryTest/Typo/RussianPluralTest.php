@@ -1,7 +1,5 @@
 <?php
 
-require('local/vendor/autoload.php');
-
 use \Rottenberry\Typo\RussianPlural;
 use \PHPUnit\Framework\TestCase;
 
