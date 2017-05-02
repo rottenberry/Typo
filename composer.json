@@ -1,0 +1,23 @@
+{
+  "name": "rottenberry/typo",
+  "type": "library",
+  "description": "A class for russian words pluralization",
+  "keywords": [
+    "russian",
+    "plurals"
+  ],
+  "homepage": "https://github.com/rottenberry/Typo",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": { "Rottenberry\\": "src/Rottenberry/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "RottenberryTest\\": "tests/RottenberryTest/" }
+  },
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.1"
+  }
+}
